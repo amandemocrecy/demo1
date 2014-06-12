@@ -1,0 +1,613 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>index</title>
+<!--script for ie older 9-->
+<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="css/reset.css" type="text/css" rel="stylesheet">
+<link href="css/grid.css" type="text/css" rel="stylesheet">
+<link href="css/base_font.css" type="text/css" rel="stylesheet">
+<link href="css/global.css" type="text/css" rel="stylesheet">
+<link href="css/uniform.tp.css" rel="stylesheet" type="text/css" />
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+<link href="css/jquery.ui.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.9.2.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.uniform.min.js"></script>
+<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="prettify/prettify.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5"/>
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>
+<script type="text/javascript" src="js/placeholder.js"></script>
+<script type="text/javascript" src="js/lightbox.js"></script>
+<script type="text/javascript">
+jQuery(function(){
+	var k_ = jQuery('.type-second-select').find('input');
+	jQuery(k_).eq(0).click(function(e) {
+		    jQuery(this).css('outline','none');
+			jQuery('#Showbox_enter_data1').show(); 
+			jQuery('#Showbox_enter_data2').hide();  
+    });	
+	jQuery(k_).eq(1).click(function(e) {
+		    jQuery(this).css('outline','none');
+			jQuery('#Showbox_enter_data1').hide(); 
+			jQuery('#Showbox_enter_data2').show();    
+    });	
+})
+</script>
+<link href="css/register.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+ <div class="main">
+ <header>
+ <div class="container_12 clear clearfix">
+ <div class="grid_1">
+  <a class="fleft">
+   <img src="images/logo.png">
+  </a>
+  <div class="search fleft">
+   <i>
+   <img src="images/i-consearch.png">
+   </i>
+   
+    <div class="searchbox">
+     <form>
+     <input type="text" placeholder="ค้นหาข้อมูล">
+     <input type="submit" value="ค้นหา">
+     </form>
+    </div>
+    
+    <span class="font14 font-supermarket blue-color2 text-specail">ค้นหาแบบละเอียด</span>
+  </div>
+  
+  <div id="change-lang" class="fleft">
+  
+  <i><img src="images/i-con-th.png"></i>
+  <span class="font14 font-supermarket blue-color1 lang-active">ไทย</span>
+  
+  <i><img src="images/col.png"></i>
+ 
+  <i><img src="images/i-con-en.png"></i>
+  <span class="font14 font-supermarket blue-color2 text-specail">อังกฤษ</span>
+  <div id="zoom-resize">
+  <a></a>
+   <a></a>
+  </div>
+  
+  
+  </div>
+  
+ </div>
+ </div>
+ </header>
+ 
+ <!--menu-->
+ <menu>
+ <div class="mainmenu">
+  <div class="container_12 clear clearfix">
+    <ul>
+    <li class="fleft ">
+    <a class="font16 font-supermarket blue-color3 " href="index.html">หน้าหลัก</a>
+    </li>
+    <li class="fleft" style="position:relative;">
+     <a class="font16 font-supermarket blue-color3 " >หมวดหมู่ข่าว</a>
+     <i><img src="images/i-condown.jpg"></i>
+     <div class="sub-mainmenu font16 font-supermarket">
+      <a class="blue-color3" href="news.html">ข่าวสังคม</a>
+       <a class="blue-color3" href="news_1.html">ข่าวต่างประเทศ</a>
+        <a class="blue-color3" href="">ข่าววิทยาศาสตร์</a>
+         <a class="blue-color3" href="">ข่าวเกษตร/สิ่งแวดล้อม</a>
+          <a class="blue-color3" href="">ข่าวศิลปะ/วัฒนธรรม</a>
+           <a class="blue-color3" href="">ข่าวกีฬา</a>
+            <a class="blue-color3" href="">ข่าวประชาสัมพันธ์</a>
+             <a class="blue-color3" href="">ข่าวภูมิภาค</a>
+              <a class="blue-color3" href="">ข่าวบริการ</a>
+               <a class="blue-color3" href="">ข่าวพยากรณ์อากาศ</a>
+                <a class="blue-color3" href="">ข่าวรายงานพิเศษ/บทความ</a>
+                 <a class="blue-color3" href="">ข่าวประกวดราคา</a>
+     </div>
+    </li>
+    <li class="fleft" style="position:relative;">
+     <a class="font16 font-supermarket blue-color3 ">วีดีโอย้อนหลัง</a>
+     
+     
+     <div class="sub-mainmenu font16 font-supermarket">
+      <a class="blue-color3" href="video_ondemand.html">วีดีโอย้อนหลัง</a>
+       <a class="blue-color3" href="webboard.html">กระดานสนทนา</a>
+     </div>
+    
+    </li>
+    <li class="fleft">
+     <a class="font16 font-supermarket blue-color3 ">PRDSHARING</a>
+    </li>
+    <li class="fleft">
+     <a class="font16 font-supermarket blue-color3 " href="video_live.html">ถ่ายทอดสด</a>
+    </li>
+    <li class="fleft list-login">
+    <a class="font14 font-supermarket text-specail blue-color2 fancybox fancybox.iframe" href="login.html">เข้าสู่ระบบ</a>
+    <a><img src="images/col.png"></a>
+     <a class="font14 font-supermarket text-specail blue-color2" href="register.html">ลงทะเบียน</a>
+    </li>
+    </ul>
+  </div>
+  </div>
+ </menu>
+ 
+ <div class="container_12 after_menu">
+   <h2 class=" fontbold font14 blue-color1">NEWS</h2>
+   <span class="font12">สำนักพระราชวังแจ้งว่าพระบาทสมเด็จพระเจ้าอยู่หัว ทรงพระกรุณาโปรดเกล้าโปรดกระหม่อมเสด็จออก ณ ท้องพระโรงศาลาราชประชาสมาคม วังไกลกังวล </span>
+ </div>
+ 
+<div class="container_12 clearfix clear blockdistance" style="margin-bottom:46px;">
+  <nav>
+  <div class="font12 ">
+   <i><a><img src="images/news/i-conhome.jpg"> </a></i>
+   <span>></span>
+   <span class=" blue-color1">ลงทะเบียน</span>
+   
+  
+  </div>
+  </nav>
+  
+  <div class="dash"></div>
+</div> 
+
+ 
+
+
+<div class="container_12 clearfix clear blockdistance extra-wrap font12" style="margin-bottom:50px; background-color:#f5f5f5;">
+ <img src="images/register/big-banner.jpg">
+ 
+ <div class="setextra-wrap">
+ <!--<p class="fontbold font14" style="width:552px;">เลขที่9 ซอยอารีย์สัมพันธ์ ถนนพระราม 6 แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400</p>
+ <p><span class="fontbold">โทรศัพท</span><span>02-618-2323,   </span> <span class="fontbold">โทรสาร</span> <span>02-618-2364, 02-618-2399</span> </p>
+ <p><span class="fontbold">Website :</span><span>http://www.prd.go.th, </span> <span class="fontbold"> E-mail :</span> <span>webmaster@prd.go.th</span></p>-->
+<div class="dash" style="margin:;"></div>  
+ </div>
+
+<section>
+ <div class="setextra-wrap">
+<div class="group-select clearfix clear gray-color">
+  <div class="type-first-select fleft fontbold"><label>ประเภทการลงทะเบียน</label></div>
+  <div class="type-second-select fleft"><form><input type="radio" name="sex" value="" checked="checked" />
+<label>สมัครสมาชิก (สำหรับบุคคลทั่วไป)</label><input type="radio" name="sex" value=""  style="margin-left:18px;"/> <label>สมัครเข้าใช้งานระบบ (สำหรับหน่วยงาน)</label></form></div>
+ </div>
+ </div>
+ 
+  <div id="Showbox_enter_data1"> 
+  <div class="setextra-wrap">
+ 
+ 
+ <div class="group-select clearfix clear gray-color">
+  <div class="type-first-select fleft fontbold"><label>เพศ</label></div> 
+   <div class="type-second-select fleft"><form><input type="radio" name="sex" value="" checked="checked" />
+<label>ผู้หญิง</label><input type="radio" name="sex" value="" /> <label>ผู้ชาย</label></form></div>
+  </div>
+<div class="group-select clearfix clear gray-color">
+ <div class="type-first-select fleft fontbold"><label>คำนำหน้า</label></div>
+  <div class="type-second-select fleft"><form><input type="radio" name="sex" value="" checked="checked" />
+<label>นาย</label><input type="radio" name="sex" value=""  style="margin-left:10px;"/> <label>นาง</label>
+<input type="radio" name="sex" value="" /> <label>นางสาว</label>
+</form></div>
+</div>  
+</div>
+ 
+
+<div class="grid_2 gray-color contact-form" >
+
+<div class="clear clearfix">
+<form>
+
+ <div class="fleft box-enter-input">
+ <div class="text-enter-register">
+ <label class="first-label fontbold">ชื่อ</label>
+ <input type="text" placeholder="ชื่อ"><!--<i>*</i>--><span>*</span>
+</div>
+
+<div class="text-enter-register">
+ <label class="first-label fontbold">USERNAME</label>
+ <input type="text" placeholder="USERNAME"><!--<i>*</i> --><span>*</span>
+ </div>
+<div class="text-enter-register PASSWORD"> 
+<label class="first-label fontbold">CONFIRM PASSWORD</label>
+ 
+ <input type="password" placeholder="CONFIRM PASSWORD"><!-- <i>*</i>--><span style="color:#FF0000;">*</span>
+ </div>
+
+<div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">ประเภทตำแหน่ง</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >ประเภทตำแหน่ง</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div> 
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">สังกัด</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >สังกัด</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">ภาค</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >ภาค</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">อำเภอ</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >อำเภอ</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ 
+ <div> 
+ <label class=" fontbold" style="display:inline-block;margin-top:18px; margin-right:22px;"> ที่อยู่</label>
+
+ <textarea placeholder="ที่อยู่"></textarea>
+ </div>
+<div> 
+<label class="fontbold" style="margin-right:22px;">E-mail</label>
+ <input type="text" style="margin-right:14px;" placeholder="E-mail">
+ </div> 
+ 
+ 
+ </div>
+ </form>
+</div>
+</div>
+
+<div class="grid_2 gray-color" >
+ <div class="clear clearfix">
+<form>
+
+ <div class="fleft box-enter-input ">
+ <div class="text-enter-register">
+ <label class=" fontbold">นามสกุล</label>
+ <input type="text" placeholder="นามสกุล"><!--<i>*</i>--><span>*</span>
+</div>
+
+<div class="text-enter-register PASSWORD">
+ <label class=" fontbold">PASSWORD</label>
+ <input type="password" placeholder="PASSWORD"><!--<i>*</i> --><span style="color:#FF0000;">*</span>
+ </div>
+<div class="text-enter-register"> 
+<label class=" fontbold">รหัสบัตรประชาชน</label>
+ <input type="text" placeholder="รหัสบัตรประชาชน"><!-- <i>*</i>--><span>*</span>
+ </div>
+
+<div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">ตำแหน่ง</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >ตำแหน่ง</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div> 
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">หน่วยงาน</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >หน่วยงาน</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">จังหวัด</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >จังหวัด</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ <div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">ตำบล</span>
+     <div class="searchbox select-option">
+      <select name="select" class="uniformselect ">
+          <option value="" >ตำบล</option>
+          <option value="">เลือกรายการ1</option>
+                            	
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+          <option value="">เลือกรายการ1</option>
+     </select>
+    </div>
+   </div>
+ </div>
+ 
+
+ <div class="text-enter-register"> 
+<label class="first-label fontbold">เบอร์ที่ทำงาน</label>
+ <input type="text" style="margin-right:14px;" placeholder="เบอร์ที่ทำงาน">
+ </div>
+<div class="text-enter-register" style="margin-top:10px;"> 
+<label class="first-label fontbold">เบอร์มือถือ</label>
+ <input type="text" style="margin-right:14px;" placeholder="เบอร์มือถือ">
+ </div> 
+ 
+ </div>
+ </form>
+</div>
+  
+</div>
+
+<div class="clearfix clear"></div>
+<div class="setextra-wrap">
+<div class="group-select clearfix clear gray-color">
+  <div class="type-first-select fleft fontbold"><label style="margin-top:8px;display:block;">บรรจุเป็น</label></div>
+  <div class="type-second-select fleft">
+  <form style="margin-bottom:0;"><input type="radio" name="sex" value="" checked="checked" />
+  <label>ข้าราชการ</label><input type="radio" name="sex" value="" /> <label>ลูกจ้างประจำ</label>
+  <input type="radio" name="sex" value="" /> <label>พนักงานราชการ</label>
+  <input type="radio" name="sex" value="" /> <label>ลูกจ้างชั่วคราว</label>
+  <input type="radio" name="sex" value="" /> <label>อื่นๆ</label>
+  <input type="text" class="others" placeholder="อื่นๆ">
+  </form>
+</div>
+ </div>
+ </div>
+ <div class="setextra-wrap">
+<div id="phone" class="gray-color fontbold"> 
+<form>
+<label class="fontbold">MC Adress</label>
+ <input type="text" placeholder="MC Adress">
+ </form>
+ </div> 
+<div class="dash"></div> 
+ </div>
+  <div class="setextra-wrap" style="text-align:center;">
+   <input  type="submit"  value="ลงทะเบียน" class="Whitecolor font-supermarket search-advance">
+   <input  type="reset"  value="ยกเลิก" class="Whitecolor font-supermarket search-advance bg-reset-register">
+    <span class="importent-enter text-important-register">* ข้อมูลที่จำเป็นต้องกรอก</span>
+  </div>
+</div> 
+
+<div id="Showbox_enter_data2"> 
+ <div class="setextra-wrap">
+  <div class="group-select clearfix clear gray-color">
+  <div class="type-first-select fleft fontbold"><label>เพศ</label></div> 
+   <div class="type-second-select fleft"><form><input type="radio" name="sex" value="" checked="checked" />
+   <label>ผู้หญิง</label><input type="radio" name="sex" value="" /> <label>ผู้ชาย</label></form></div>
+  </div>
+  </div>
+<div class="grid_2 gray-color contact-form" >
+
+<div class="clear clearfix">
+<form>
+ <div class="fleft box-enter-input">
+ <div class="text-enter-register">
+ <label class="first-label fontbold">ชื่อ</label>
+ <input type="text" placeholder="ชื่อ"><!--<i>*</i>--><span></span>
+</div>
+
+<div class="text-enter-register">
+ <label class="first-label fontbold">E-mail</label>
+ <input type="text" placeholder="E-mail"><!--<i>*</i> --><span></span>
+ </div>
+
+
+<div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">ประเทศ</span>
+     <div class="searchbox select-option" style="margin-right:6px;">
+      <select name="select" class="uniformselect ">
+          <option value="">ประเทศไทย</option>
+          <option value="">ประเทศไทย</option>
+                            	
+         <option value="">ประเทศไทย</option>
+        <option value="">ประเทศไทย</option>
+         <option value="">ประเทศไทย</option>
+     </select>
+    </div>
+   </div>
+ </div> 
+<div class="text-enter-register">
+ <label class="first-label fontbold">USERNAME</label>
+ <input type="text" placeholder="USERNAME"><!--<i>*</i> --><span></span>
+ </div>
+<div class="text-enter-register PASSWORD">
+ <label class="first-label fontbold">PASSWORD</label>
+ <input type="password" placeholder="PASSWORD"><!--<i>*</i> --><span></span>
+ </div> 
+ 
+
+ </div>
+ </form>
+</div>
+</div>
+
+<div class="grid_2 gray-color" >
+ <div class="clear clearfix">
+<form>
+
+ <div class="fleft box-enter-input ">
+ <div class="text-enter-register">
+ <label class=" fontbold">นามสกุล</label>
+ <input type="text" placeholder="นามสกุล"><!--<i>*</i>--><span></span>
+</div>
+
+<div class="text-enter-register PASSWORD">
+ <label class=" fontbold">เบอร์โทร</label>
+ <input type="password" placeholder="เบอร์โทร"><!--<i>*</i> --><span></span>
+ </div>
+
+
+<div class="resgister-select"> 
+ <div id="search-live">
+     <span class="font12 fontbold gray-color">จังหวัด</span>
+     <div class="searchbox select-option" style="margin-right:6px;">
+      <select name="select" class="uniformselect ">
+          <option value="" >กรุงเทพมหานคร</option>
+          <option value="" >กรุงเทพมหานคร</option>
+                            	
+         <option value="" >กรุงเทพมหานคร</option>
+         <option value="" >กรุงเทพมหานคร</option>
+         <option value="" >กรุงเทพมหานคร</option>
+     </select>
+    </div>
+   </div>
+ </div> 
+
+<div class="text-enter-register PASSWORD">
+ <label class=" fontbold">CONFIRM PASSWORD</label>
+ <input type="password" placeholder="CONFIRM PASSWORD"><!--<i>*</i> --><span></span>
+ </div> 
+ 
+
+ 
+ </div>
+ </form>
+</div>
+  
+</div>
+
+<div class="clearfix clear"></div>
+
+ <div class="setextra-wrap">
+  <div class="dash" style=""></div>  
+ </div>
+  <div class="setextra-wrap" style="text-align:center;">
+   <input  type="submit"  value="ลงทะเบียน" class="Whitecolor font-supermarket search-advance">
+   <input  type="reset"  value="ยกเลิก" class="Whitecolor font-supermarket search-advance bg-reset-register">
+    
+  </div>
+</div>
+ 
+</section>
+
+
+</div>
+
+
+
+
+<!--footer-->
+
+<footer>
+<div id="boxfooter">
+<div class="container_12 clearfix clear">
+  <div class="top ">
+   <a class="fleft font12 gray-color" href="about_us.html">เกี่ยวกับ NNT </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color"> ติดต่อเรา  </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color" href="sitemap.html">แผนที่เว็บไซต์ </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color fancybox fancybox.iframe" href="login.html" > เข้าสู่ระบบ </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">ENG </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">ข่าว </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">ข่าวสาร </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">ภูมิภาค </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">สถานการณ์ </a>
+   <div class="fleft"><img src="images/cols_i.jpg"></div>
+   <a class="fleft font12 gray-color">สื่อ  </a>
+  
+  
+  <div id="socail-network">
+   <a><img src="images/i-confb.jpg"></a>
+    <a><img src="images/i-contwister.jpg"></a>
+  </div>
+  
+  </div>
+  <div class="bottom">
+   <div class="text-adress fleft">
+   <p class="headofficennt Whitecolor fleft">สำนักข่าว กรมประชาสัมพันธ์ </p>
+   <div class="clearfix clear"></div>
+   <span class="font12 Whitecolor fleft blue-color2">0-91 ถ.เพชรบุรีตัดใหม่ แขวงบางกะปิ เขตห้วยขวาง 10310 </span>
+    <div class="clearfix clear"></div>
+   <span class="font12 blue-color2 fleft"><b class="fontbold Whitecolor">โทรศัพท์</b> 02-248-8600,<b class="fontbold Whitecolor"> Fax</b> 02-369-2579</span>
+    <div class="clearfix clear"></div>
+   <span class="font12 Whitecolor fleft fontbold">WEB MASTER </span><b class="font12 blue-color2 fleft"> &nbsp;: nnt.thainews@gmail.com </b>
+   
+   </div>
+   <div id="web-scroe"  class="right_float">
+    <img src="images/i-conscore.png">
+   </div>
+   
+  </div>
+</div> 
+</div>
+</footer>
+
+
+
+</div>
+ 
+ 
+
+</body>
+</html>
